@@ -1,0 +1,316 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand img{
+    width: 74%;
+    height: 24px;
+    margin-left: 53px;
+
+}
+.navbar-nav{
+    display: flex;
+    margin-left: 80px;
+    }
+
+   .nav-link{
+    font-size: 12px;
+    color: #808080;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    margin: 0; 
+    padding: 0; 
+  }
+
+  .Head-content {
+    text-align: center;
+    color: black;
+  }
+
+  .image {
+    position: relative;
+}
+
+  .Head-content {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    color: black;
+  }
+  .wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-overlay {
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.container-fluid {
+  flex: 1;
+}
+
+.row1{
+height: 12rem;
+}
+  .para ,.header2{
+    color: #808080;
+  }
+.row2 {
+  width: 100%;
+  height: 12rem;
+  background-color: gray;
+  padding:39px 500px;
+  line-height: 27px;
+ }
+
+ .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: space-between; 
+ 
+}
+
+.footer-sub-nav {
+  display: flex;
+  flex-direction: column; 
+  text-decoration: none;
+}
+.footer-sub-nav a{
+  text-decoration: none;
+  color:#F5F5ED;
+  font-size: 12px;
+}
+.footer-ul{
+  list-style: none;
+ 
+}
+/* ---------------------Media query--------------------- */
+
+@media (max-width: 727px) {
+  .image {
+    text-align: 75%;
+    position: relative;
+  }
+
+  .Head-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+padding:20px;
+  }
+
+  .Head-content h4 {
+    font-size: 14px;
+    margin-left: 200px;
+    color: #000;
+    margin-top: -15%;
+  }
+
+  .Head-content h5 {
+    font-size: 11px;
+    margin-left: 190px;
+    color: #000;
+  }
+
+  .Head-content button {
+    font-size: 10px;
+    margin-left: 200px;
+color: #000; 
+ }
+  } 
+
+
+
+
+@media(max-width: 768px) {
+  .row2 {
+    padding: 39px 20px; 
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .row1 {
+    height: auto;
+  }
+  
+  .header1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .para, .header2 {
+    font-size: 14px;
+  }
+}
+
+/* --------------------footer------------------------------ */
+
+ .footerx {
+  background-color: #666666;
+}
+.container-section {
+  background-color: transparent;
+}
+/* footer section-list md device */
+.list-items {
+  padding: 1rem 0px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(106, 106, 106);
+  line-height: 2rem;
+}
+.list-items dd {
+  color: #bebebe;
+  padding: 0%;
+  font-size: 11px;
+  cursor: pointer;
+}
+.list-items dt {
+  color: #fff;
+  padding-top: 15%;
+  font-size: 12px;
+  font-weight: 400;
+}
+dl {
+  margin: 0%;
+}
+.list-items dd:hover {
+  color: #fff;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+/* footer section-list sm device  */
+.list-items-mobile a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.list-items-mobile a:hover {
+  color: white;
+}
+.list-items-mobile dt {
+  line-height: 1rem;
+}
+
+.list-items-mobile dd {
+  font-size: 11px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  color: rgb(171, 170, 170);
+  margin: 0;
+  line-height: 2rem;
+}
+/* acerpure footer social section   */
+   .footerY{
+    background-color: #222222;
+   }
+   .s-footer{
+    display: flex;
+    justify-content: space-between;
+   }
+   @media (max-width:767px){
+    .s-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .s-footer_icon{
+      padding-top: 1em;
+    }
+    #middle div h2{
+      font-size: 16px;
+    }
+    .new-collection{
+      font-size: 20px;
+      padding: 25px;
+    }
+   }
+
+   .s-footer_text{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    color: #686767;
+    padding-top: 2rem;
+   }
+
+   .home-screen{
+    position: fixed;
+      bottom: 1.2rem;
+     right: 1.2rem;
+      background-color: rgb(255, 255, 255);
+      width: 2.6rem;
+      height: 2.6rem;
+      border-radius: 2.6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow:0px 2px 5px rgba(0, 0, 0, 0.384) ;
+  }
+  .home-screen a:hover{
+    cursor: pointer;
+      translate:0 -2px;
+  }
+  .home-screen i{
+    width: 1rem;
+  }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
+
+
+
+ 
+ 
+
+  
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+  
+
+
+  
